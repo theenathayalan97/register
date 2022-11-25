@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "7ce48b4a-1eb1-4e4d-ad97-a91f3d161e65",
+		"name": "register",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24348219"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/v1/login/updateData?email=loki05@gmail.com",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstname\" : \"lo\",\r\n    \"lastname\"  : \"ki\",\r\n    \"birthday\"  : \"20-1-990\",\r\n    \"email\"     : \"loki05@gmail.com\",\r\n    \"phoneno\"   : 7044623345,\r\n    \"address\"   : [\"karuppasamy kovil nort street\"],\r\n    \"state\"     : \"universe\",\r\n    \"city\"      : \"askard\",\r\n    \"pincode\"   : 953478\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/v1/login/updateData?email=loki05@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"login",
+						"updateData"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "loki05@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
