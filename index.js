@@ -37,5 +37,6 @@ app.use("/healthtest",async(req,res)=>{
 app.listen(port,(err)=>{
     if(!err){
         console.log(`listen port http://localhost:${port}`)
-    }
+    }else{
+        console.log("port not connect")
 })
