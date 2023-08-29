@@ -16,7 +16,7 @@ app.use("/api/v1/login/",page);
 mongoose.connect("mongodb://localhost:27017/login").then((result) => {
     console.log("mongodb connect successfully")
 }).catch((err) => {
-    console.log(err)
+    console.log(err,"mongodb not connect")
 });
 
 
