@@ -28,7 +28,7 @@ app.use("/healthtest",async(req,res)=>{
         res.status(200).json({"status":"suceess","message":"running healthtest","result":resut})
         console.log(`connect ${result}`)
     } catch (error) {
-        console.log(error)
+        console.log(error,"the error value")
     }
 })
 
